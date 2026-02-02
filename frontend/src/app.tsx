@@ -35,7 +35,7 @@ function App() {
         throw new Error(data.error || 'Failed to shorten URL');
       }
 
-      setShortUrl(data.shortLink);
+      setShortUrl(data.shortUrl);
       setTotalShortened(prev => prev + 1);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
