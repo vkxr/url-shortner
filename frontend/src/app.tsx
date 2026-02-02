@@ -7,7 +7,7 @@ import { Features } from './components/Features';
 import { Stats } from './components/Stats';
 import './style.css';
 
-const API_URL = 'http://localhost:3000/api/shorturls';
+const API_URL = 'https://url-shortner-zb8k.onrender.com';
 
 function App() {
   const [shortUrl, setShortUrl] = useState<string>('');
